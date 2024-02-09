@@ -47,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
   }
   
   .currency select {
@@ -66,9 +67,9 @@
   
   .currency input {
     border: 0;
-    background: transparent;
+    background: #dedede;
     font-size: 20px;
-    color: #dedede;
+    color: #0a0a0a;
     text-align: right;
   }
   
@@ -80,7 +81,8 @@
   
   .rate {
     color: var(--primary-color);
-    font-size: 12px;
+    font-size: 20px;
+    text-decoration: solid;
     padding: 0 10px;
   }
   
